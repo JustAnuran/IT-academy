@@ -2,48 +2,59 @@
 <head>
     <meta charset="UTF-8" />
     <title>LENNI</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="">Мероприятия</a>
-            <a href="">Блог</a>
-            <a href="">О нас</a>
-            <a href="">Контакты</a>
+<body class="body">
+    <header class="page-header">
+        <nav class="page-header_nav">
+            <a class="page-header_nav-link" href="">Мероприятия</a>
+            <a class="page-header_nav-link" href="">Блог</a>
+            <a class="page-header_nav-link" href="">О нас</a>
+            <a class="page-header_nav-link" href="">Контакты</a>
         </nav>
     </header>
-    <main>
-        <header>
-            <h1>АРТ-пространсво</h1>
-        </header>
-        <section>
-            <h2>О нас</h2>
-        </section>
-        <section>
-            <h2>Мероприятия</h2>
-        </section>
-        <section>
-            <h2>Бог</h2>
-        </section>
-        <section>
-            <h2>Контакты</h2>
-        </section>
+    <main class="main">
+        <div class="home">
+            <header class="main-header home_main-header">
+                <h1>АРТ-пространсво</h1>
+            </header>
+            <section class="offers home_offers">
+                <h4 class="offers_title">я хочу</h4>
+                <div class="offers_buttons">
+                    <button class="offers_button button button-red" type="button">Провести мероприятие</button>
+                    <button class="offers_button button button-whith" type="button">стать арендадатором</button>
+                </div>
+            </section>
+            <section class="about home_about">
+                <h2 class="about_section-title section-title ">О нас</h2>
+                <div class="about_container"></div>
+            </section>
+            <section class="upcoming home_upcoming">
+                <h2 class="upcoming_section-title section-title">Мероприятия</h2>
+            </section>
+            <section class="listing home_listing">
+                <h2 class="listing_section-title section-title">Блог</h2>
+            </section>
+            <section class="contacts home_contacts">
+                <h2 class="contacts_section-title section-title">Контакты</h2>
+            </section>
+        </div>
     </main>
-    <footer>
-        <ul>
-            <li>
+    <footer class="foother">
+        <ul class="footer_links">
+            <li class="footer_link">
                 <a href="">Календарь мероприятий</a>
             </li>
-            <li>
+            <li class="footer_link">
                 <a href="">Провести мероприятия</a>
             </li>
-            <li>
+            <li class="footer_link">
                 <a href="">Стать арендадатором</a>
             </li>
-            <li>
+            <li class="footer_link">
                 <a href="">Наши проект</a>
             </li>
-            <li>
+            <li class="footer_link">
                 <a href="">Контакты</a>
             </li>
         </ul>
